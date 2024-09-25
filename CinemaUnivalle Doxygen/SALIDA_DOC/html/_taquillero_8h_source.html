@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Cinema Univalle: Archivo de código fuente C:/Users/migue/Documents/Programacion/C++/Univalle/CinemaUnivalle/include/Taquillero.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="LOGO DOXY.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Cinema Univalle<span id="projectnumber">&#160;1.5</span>
+   </div>
+   <div id="projectbrief">Implementación del Programa Principal para gestionar un cine.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_9243c75301ab6fcc2bdd45bc5b7a8ab2.html">CinemaUnivalle</a></li><li class="navelem"><a class="el" href="dir_d0a03c5d044aecc4446ef1a97658ee96.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">Taquillero.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_taquillero_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#ifndef TAQUILLERO_H</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#define TAQUILLERO_H</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &quot;<a class="code" href="_usuario_admin_8h.html">UsuarioAdmin.h</a>&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="foldopen" id="foldopen00029" data-start="{" data-end="};">
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_taquillero.html">   29</a></span><span class="keyword">class </span><a class="code hl_class" href="class_taquillero.html">Taquillero</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_usuario_admin.html">UsuarioAdmin</a></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>{</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_taquillero.html#a2aef1857c6441a3503b85ae896350e45">   32</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_taquillero.html#a2aef1857c6441a3503b85ae896350e45">numID</a>; </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_function" href="class_taquillero.html#a9ce61dab1cf4ac072f5099d3bce78fef">Taquillero</a>();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">virtual</span> <a class="code hl_function" href="class_taquillero.html#a69f2425b9f93eaa4d29c32fe9b701664">~Taquillero</a>();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <a class="code hl_function" href="class_taquillero.html#a9ce61dab1cf4ac072f5099d3bce78fef">Taquillero</a>(<span class="keywordtype">string</span> usu, <span class="keywordtype">string</span> pass);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <a class="code hl_function" href="class_taquillero.html#a9ce61dab1cf4ac072f5099d3bce78fef">Taquillero</a>(<span class="keywordtype">string</span> usu, <span class="keywordtype">string</span> pass, <span class="keywordtype">string</span> tarjeta, <span class="keywordtype">string</span> estado, <span class="keywordtype">string</span> cont);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <a class="code hl_function" href="class_taquillero.html#a9ce61dab1cf4ac072f5099d3bce78fef">Taquillero</a>(<span class="keywordtype">string</span> usu, <span class="keywordtype">string</span> pass, <span class="keywordtype">string</span> estudios, <span class="keywordtype">string</span> direc, <span class="keywordtype">string</span> tarjeta, <span class="keywordtype">string</span> estado, <span class="keywordtype">string</span> cont, <span class="keywordtype">string</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_taquillero.html#a7a81ee28d51bf633d1be1aa033cc5b3f">setNumID</a>();</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_taquillero.html#a6963b8e62141e30c3f8afa66ab96b669">getNumID</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>};</div>
+</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span><span class="preprocessor">#endif </span><span class="comment">// TAQUILLERO_H</span></div>
+<div class="ttc" id="a_usuario_admin_8h_html"><div class="ttname"><a href="_usuario_admin_8h.html">UsuarioAdmin.h</a></div><div class="ttdoc">Definición de la clase UsuarioAdmin, que representa a un usuario administrador y es una clase hija de...</div></div>
+<div class="ttc" id="aclass_taquillero_html"><div class="ttname"><a href="class_taquillero.html">Taquillero</a></div><div class="ttdoc">Clase que representa a un taquillero y es una clase hija de UsuarioAdmin.</div><div class="ttdef"><b>Definition</b> <a href="_taquillero_8h_source.html#l00029">Taquillero.h:30</a></div></div>
+<div class="ttc" id="aclass_taquillero_html_a2aef1857c6441a3503b85ae896350e45"><div class="ttname"><a href="class_taquillero.html#a2aef1857c6441a3503b85ae896350e45">Taquillero::numID</a></div><div class="ttdeci">string numID</div><div class="ttdef"><b>Definition</b> <a href="_taquillero_8h_source.html#l00032">Taquillero.h:32</a></div></div>
+<div class="ttc" id="aclass_taquillero_html_a6963b8e62141e30c3f8afa66ab96b669"><div class="ttname"><a href="class_taquillero.html#a6963b8e62141e30c3f8afa66ab96b669">Taquillero::getNumID</a></div><div class="ttdeci">string getNumID() const</div><div class="ttdoc">Obtiene el número de identificación del taquillero.</div><div class="ttdef"><b>Definition</b> <a href="_taquillero_8cpp_source.html#l00108">Taquillero.cpp:108</a></div></div>
+<div class="ttc" id="aclass_taquillero_html_a69f2425b9f93eaa4d29c32fe9b701664"><div class="ttname"><a href="class_taquillero.html#a69f2425b9f93eaa4d29c32fe9b701664">Taquillero::~Taquillero</a></div><div class="ttdeci">virtual ~Taquillero()</div><div class="ttdoc">Destructor virtual de la clase Taquillero.</div><div class="ttdef"><b>Definition</b> <a href="_taquillero_8cpp_source.html#l00034">Taquillero.cpp:34</a></div></div>
+<div class="ttc" id="aclass_taquillero_html_a7a81ee28d51bf633d1be1aa033cc5b3f"><div class="ttname"><a href="class_taquillero.html#a7a81ee28d51bf633d1be1aa033cc5b3f">Taquillero::setNumID</a></div><div class="ttdeci">void setNumID()</div><div class="ttdoc">Establece el número de identificación del taquillero mediante la entrada del taquillero.</div><div class="ttdef"><b>Definition</b> <a href="_taquillero_8cpp_source.html#l00097">Taquillero.cpp:97</a></div></div>
+<div class="ttc" id="aclass_taquillero_html_a9ce61dab1cf4ac072f5099d3bce78fef"><div class="ttname"><a href="class_taquillero.html#a9ce61dab1cf4ac072f5099d3bce78fef">Taquillero::Taquillero</a></div><div class="ttdeci">Taquillero()</div><div class="ttdoc">Constructor por defecto de la clase Taquillero. Inicializa los atributos con valores predeterminados.</div><div class="ttdef"><b>Definition</b> <a href="_taquillero_8cpp_source.html#l00026">Taquillero.cpp:26</a></div></div>
+<div class="ttc" id="aclass_usuario_admin_html"><div class="ttname"><a href="class_usuario_admin.html">UsuarioAdmin</a></div><div class="ttdoc">Clase que representa a un usuario administrador, heredada de Usuarios.</div><div class="ttdef"><b>Definition</b> <a href="_usuario_admin_8h_source.html#l00030">UsuarioAdmin.h:31</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>

@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['generarreportegeneral_0',['generarReporteGeneral',['../class_operacion_boleto.html#ac1396116fdaaa9bed6fda465d66be576',1,'OperacionBoleto']]],
+  ['generarreportesala_1',['generarReporteSala',['../class_operacion_boleto.html#a47f82a52141cfe1439a7aa05088af776',1,'OperacionBoleto']]],
+  ['getcontrato_2',['getContrato',['../class_usuario_admin.html#a7a815669b9ff3db0343fa070fc1ff6dd',1,'UsuarioAdmin']]],
+  ['getdireccion_3',['getDireccion',['../class_usuarios.html#a49c4a5fd19d0e11c8b5411f077c1feaa',1,'Usuarios']]],
+  ['getdirector_4',['getDirector',['../class_pelicula.html#a46e3eb69fd1dc1e05a5999c45cf09874',1,'Pelicula']]],
+  ['getduracionminutos_5',['getDuracionMinutos',['../class_pelicula.html#a0393b5db34510ca0053235b6ee4fb686',1,'Pelicula']]],
+  ['getestadocivil_6',['getEstadoCivil',['../class_usuario_admin.html#afe676a0510d9827fcb57b0c0f51a7e50',1,'UsuarioAdmin']]],
+  ['getgenero_7',['getGenero',['../class_pelicula.html#ad688d3bb7626aa0ca0600669a7ba5d9d',1,'Pelicula']]],
+  ['getnivelestudios_8',['getNivelEstudios',['../class_usuarios.html#ae6d5208941d1b2dff288e077b6e6c7d6',1,'Usuarios']]],
+  ['getnumid_9',['getNumID',['../class_taquillero.html#a6963b8e62141e30c3f8afa66ab96b669',1,'Taquillero']]],
+  ['getnumsalas_10',['getNumSalas',['../class_salas.html#add184825d8bc8228ba94057522e85162',1,'Salas']]],
+  ['getpassword_11',['getPassword',['../class_usuarios.html#aea03a793fddc247b8fa98a32c3194708',1,'Usuarios']]],
+  ['getsala_12',['getSala',['../class_pelicula.html#a5adf6883d8227661fcf9edb9316e8195',1,'Pelicula']]],
+  ['gettarjetaprofesional_13',['getTarjetaProfesional',['../class_usuario_admin.html#a341d9ae7bf411609a459863649b03678',1,'UsuarioAdmin']]],
+  ['gettitulo_14',['getTitulo',['../class_pelicula.html#a5f0d7c5cd0c774a2b3f68e611badae99',1,'Pelicula']]],
+  ['getusuario_15',['getUsuario',['../class_usuarios.html#a8e65a22e1920631b9bf21c90b5a9fd8d',1,'Usuarios']]]
+];

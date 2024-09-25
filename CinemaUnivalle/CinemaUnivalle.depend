@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1699152237 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\entidad.cpp
+	"Entidad.h"
+
+1699152236 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\entidad.h
+
+1699152255 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\sistemataquilla.cpp
+	"SistemaTaquilla.h"
+
+1699152255 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\sistemataquilla.h
+
+1702278204 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\usuarioadmin.cpp
+	"UsuarioAdmin.h"
+	"Usuarios.h"
+	<iostream>
+
+1702277701 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\usuarioadmin.h
+	<iostream>
+	"Usuarios.h"
+
+1702278044 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\usuarionormal.cpp
+	"UsuarioNormal.h"
+	<iostream>
+
+1702278044 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\usuarionormal.h
+	<iostream>
+	"Usuarios.h"
+
+1702398327 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+	"Usuarios.h"
+	"UsuarioAdmin.h"
+	"UsuarioNormal.h"
+	"Taquillero.h"
+	"Pelicula.h"
+	"Salas.h"
+	"OperacionBoleto.h"
+
+1699392535 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\basededatos.cpp
+	"BaseDeDatos.h"
+
+1699392535 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\basededatos.h
+
+1702313860 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\taquillero.cpp
+	"Taquillero.h"
+	<iostream>
+
+1702277836 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\taquillero.h
+	<iostream>
+	"UsuarioAdmin.h"
+
+1699393247 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\horario.cpp
+	"Horario.h"
+
+1699393247 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\horario.h
+
+1702278228 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\pelicula.cpp
+	"Pelicula.h"
+	<iostream>
+
+1702280432 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\pelicula.h
+	<iostream>
+
+1699393221 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\reserva.cpp
+	"Reserva.h"
+
+1699393221 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\reserva.h
+
+1702276262 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\salas.cpp
+	"Salas.h"
+	<iostream>
+	<iomanip>
+
+1702276049 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\salas.h
+	<vector>
+
+1699393205 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\transaccion.cpp
+	"Transaccion.h"
+
+1699393205 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\transaccion.h
+
+1701273918 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\salas.cpp
+	"Salas.h"
+	<iostream>
+	<iomanip>
+
+1701299432 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\salas.h
+	<vector>
+
+1702313860 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\usuarios.cpp
+	"Usuarios.h"
+	<iostream>
+
+1702277515 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\usuarios.h
+	<iostream>
+
+1702278160 c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\include\operacionboleto.h
+	<iostream>
+	<vector>
+
+1702276794 source:c:\users\migue\documents\programacion\c++\univalle\cinemaunivalle\src\operacionboleto.cpp
+	"OperacionBoleto.h"
+	<iostream>
+

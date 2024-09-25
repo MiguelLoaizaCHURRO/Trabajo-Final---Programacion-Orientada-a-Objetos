@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Cinema Univalle: Archivo de código fuente C:/Users/migue/Documents/Programacion/C++/Univalle/CinemaUnivalle/src/Pelicula.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="LOGO DOXY.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Cinema Univalle<span id="projectnumber">&#160;1.5</span>
+   </div>
+   <div id="projectbrief">Implementación del Programa Principal para gestionar un cine.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_9243c75301ab6fcc2bdd45bc5b7a8ab2.html">CinemaUnivalle</a></li><li class="navelem"><a class="el" href="dir_a89c3e8cc1de8ccbd2960e4ee059b4b5.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">Pelicula.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_pelicula_8cpp.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="_pelicula_8h.html">Pelicula.h</a>&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_pelicula.html#af1c947990c1bd030113633ccbba23f06">   32</a></span><a class="code hl_function" href="class_pelicula.html#af1c947990c1bd030113633ccbba23f06">Pelicula::Pelicula</a>(<span class="keywordtype">string</span> T, <span class="keywordtype">string</span> D, <span class="keywordtype">string</span> g, <span class="keywordtype">int</span> DM, <span class="keywordtype">int</span> numSala)</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>{</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <a class="code hl_variable" href="class_pelicula.html#aa06edcc1da6a3c4941c1f477e13a136e">titulo</a> = T;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_variable" href="class_pelicula.html#ae622b3ed6688bd5cd7845f511119f0b2">director</a> = D;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_variable" href="class_pelicula.html#a6592eefffb11ae329199782a3716659c">genero</a> = g;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <a class="code hl_variable" href="class_pelicula.html#a649f93e71df1606c0e6e627b1ba72dbb">duracionMinutos</a> = DM;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <a class="code hl_variable" href="class_pelicula.html#a5bd6ce0bfae02ed2604e6de1b30af9e7">salaAsignada</a> = numSala;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}</div>
+</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_pelicula.html#ae3ee82d255054d25155b884f7447983f">   44</a></span><a class="code hl_function" href="class_pelicula.html#ae3ee82d255054d25155b884f7447983f">Pelicula::~Pelicula</a>()</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="comment">// No se requiere liberar recursos adicionales en este caso.</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
+</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="foldopen" id="foldopen00052" data-start="{" data-end="}">
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="class_pelicula.html#a52e1f99c1fdacf2c3e49025998c87fb4">   52</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_pelicula.html#a52e1f99c1fdacf2c3e49025998c87fb4">Pelicula::setTitulo</a>()</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>{</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    cin.ignore(); <span class="comment">// Mejor utilizar cin.ignore() en lugar de fflush(stdin) para evitar problemas con el buffer.</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    cout &lt;&lt; <span class="stringliteral">&quot;Ingrese el título de la película: &quot;</span>;</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    getline(cin, <a class="code hl_variable" href="class_pelicula.html#aa06edcc1da6a3c4941c1f477e13a136e">titulo</a>);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>}</div>
+</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="foldopen" id="foldopen00062" data-start="{" data-end="}">
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="class_pelicula.html#ac8c650ab7ab4ad01155a620e74342077">   62</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_pelicula.html#ac8c650ab7ab4ad01155a620e74342077">Pelicula::setDirector</a>()</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>{</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    cin.ignore();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    cout &lt;&lt; <span class="stringliteral">&quot;Ingrese el director de la película: &quot;</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    getline(cin, <a class="code hl_variable" href="class_pelicula.html#ae622b3ed6688bd5cd7845f511119f0b2">director</a>);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>}</div>
+</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="class_pelicula.html#aff34753653b36a96e72f90e299ac9e98">   72</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_pelicula.html#aff34753653b36a96e72f90e299ac9e98">Pelicula::setGenero</a>()</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>{</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    cin.ignore();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    cout &lt;&lt; <span class="stringliteral">&quot;Ingrese el género de la película: &quot;</span>;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    getline(cin, <a class="code hl_variable" href="class_pelicula.html#a6592eefffb11ae329199782a3716659c">genero</a>);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>}</div>
+</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="foldopen" id="foldopen00082" data-start="{" data-end="}">
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="class_pelicula.html#ae7d3964b742f4535ab75cf7877d6c86b">   82</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_pelicula.html#ae7d3964b742f4535ab75cf7877d6c86b">Pelicula::setDuracionMinutos</a>()</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>{</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    cout &lt;&lt; <span class="stringliteral">&quot;Ingrese la duración en minutos de la película: &quot;</span>;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    cin &gt;&gt; <a class="code hl_variable" href="class_pelicula.html#a649f93e71df1606c0e6e627b1ba72dbb">duracionMinutos</a>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>}</div>
+</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="foldopen" id="foldopen00092" data-start="{" data-end="}">
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="class_pelicula.html#a5f0d7c5cd0c774a2b3f68e611badae99">   92</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="class_pelicula.html#a5f0d7c5cd0c774a2b3f68e611badae99">Pelicula::getTitulo</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_pelicula.html#aa06edcc1da6a3c4941c1f477e13a136e">titulo</a>;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>}</div>
+</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="foldopen" id="foldopen00101" data-start="{" data-end="}">
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="class_pelicula.html#a46e3eb69fd1dc1e05a5999c45cf09874">  101</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="class_pelicula.html#a46e3eb69fd1dc1e05a5999c45cf09874">Pelicula::getDirector</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_pelicula.html#ae622b3ed6688bd5cd7845f511119f0b2">director</a>;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>}</div>
+</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="foldopen" id="foldopen00110" data-start="{" data-end="}">
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="class_pelicula.html#ad688d3bb7626aa0ca0600669a7ba5d9d">  110</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="class_pelicula.html#ad688d3bb7626aa0ca0600669a7ba5d9d">Pelicula::getGenero</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_pelicula.html#a6592eefffb11ae329199782a3716659c">genero</a>;</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>}</div>
+</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="foldopen" id="foldopen00119" data-start="{" data-end="}">
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="class_pelicula.html#a0393b5db34510ca0053235b6ee4fb686">  119</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="class_pelicula.html#a0393b5db34510ca0053235b6ee4fb686">Pelicula::getDuracionMinutos</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_pelicula.html#a649f93e71df1606c0e6e627b1ba72dbb">duracionMinutos</a>;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>}</div>
+</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
+<div class="foldopen" id="foldopen00128" data-start="{" data-end="}">
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="class_pelicula.html#a8f61644e1f19ecba612431f64059a88c">  128</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_pelicula.html#a8f61644e1f19ecba612431f64059a88c">Pelicula::asignarSala</a>(<span class="keywordtype">int</span> numeroSala)</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>{</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    <a class="code hl_variable" href="class_pelicula.html#a5bd6ce0bfae02ed2604e6de1b30af9e7">salaAsignada</a> = numeroSala;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>}</div>
+</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="foldopen" id="foldopen00137" data-start="{" data-end="}">
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="class_pelicula.html#a5adf6883d8227661fcf9edb9316e8195">  137</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="class_pelicula.html#a5adf6883d8227661fcf9edb9316e8195">Pelicula::getSala</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_pelicula.html#a5bd6ce0bfae02ed2604e6de1b30af9e7">salaAsignada</a>;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>}</div>
+</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="foldopen" id="foldopen00145" data-start="{" data-end="}">
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="class_pelicula.html#af5ea53a1c303f334ec1ebf8187bc8e67">  145</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_pelicula.html#af5ea53a1c303f334ec1ebf8187bc8e67">Pelicula::mostrarInformacion</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <span class="keywordtype">int</span> horas = <a class="code hl_variable" href="class_pelicula.html#a649f93e71df1606c0e6e627b1ba72dbb">duracionMinutos</a> / 60;</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    <span class="keywordtype">int</span> minutos = <a class="code hl_variable" href="class_pelicula.html#a649f93e71df1606c0e6e627b1ba72dbb">duracionMinutos</a> % 60;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    cout&lt;&lt;<span class="stringliteral">&quot;\n\tTítulo: &quot;</span>&lt;&lt;<a class="code hl_variable" href="class_pelicula.html#aa06edcc1da6a3c4941c1f477e13a136e">titulo</a>&lt;&lt;endl;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    cout&lt;&lt;<span class="stringliteral">&quot;\tDirector: &quot;</span>&lt;&lt;<a class="code hl_variable" href="class_pelicula.html#ae622b3ed6688bd5cd7845f511119f0b2">director</a>&lt;&lt;endl;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    cout&lt;&lt;<span class="stringliteral">&quot;\tGénero: &quot;</span>&lt;&lt;<a class="code hl_variable" href="class_pelicula.html#a6592eefffb11ae329199782a3716659c">genero</a>&lt;&lt;endl;</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    cout&lt;&lt;<span class="stringliteral">&quot;\tDuración: &quot;</span>&lt;&lt;horas&lt;&lt;<span class="stringliteral">&quot; horas y &quot;</span>&lt;&lt;minutos&lt;&lt;<span class="stringliteral">&quot; minutos&quot;</span>&lt;&lt;endl;</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    cout&lt;&lt;<span class="stringliteral">&quot;\tSala Asignada: &quot;</span>&lt;&lt;<a class="code hl_variable" href="class_pelicula.html#a5bd6ce0bfae02ed2604e6de1b30af9e7">salaAsignada</a>&lt;&lt;endl&lt;&lt;endl;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>}</div>
+</div>
+<div class="ttc" id="a_pelicula_8h_html"><div class="ttname"><a href="_pelicula_8h.html">Pelicula.h</a></div><div class="ttdoc">Definición de la clase Pelicula, que representa una película en un cine.</div></div>
+<div class="ttc" id="aclass_pelicula_html_a0393b5db34510ca0053235b6ee4fb686"><div class="ttname"><a href="class_pelicula.html#a0393b5db34510ca0053235b6ee4fb686">Pelicula::getDuracionMinutos</a></div><div class="ttdeci">int getDuracionMinutos() const</div><div class="ttdoc">Obtiene la duración en minutos de la película.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00119">Pelicula.cpp:119</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_a46e3eb69fd1dc1e05a5999c45cf09874"><div class="ttname"><a href="class_pelicula.html#a46e3eb69fd1dc1e05a5999c45cf09874">Pelicula::getDirector</a></div><div class="ttdeci">string getDirector() const</div><div class="ttdoc">Obtiene el director de la película.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00101">Pelicula.cpp:101</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_a52e1f99c1fdacf2c3e49025998c87fb4"><div class="ttname"><a href="class_pelicula.html#a52e1f99c1fdacf2c3e49025998c87fb4">Pelicula::setTitulo</a></div><div class="ttdeci">void setTitulo()</div><div class="ttdoc">Establece el título de la película.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00052">Pelicula.cpp:52</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_a5adf6883d8227661fcf9edb9316e8195"><div class="ttname"><a href="class_pelicula.html#a5adf6883d8227661fcf9edb9316e8195">Pelicula::getSala</a></div><div class="ttdeci">int getSala() const</div><div class="ttdoc">Obtiene el número de la sala asignada.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00137">Pelicula.cpp:137</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_a5bd6ce0bfae02ed2604e6de1b30af9e7"><div class="ttname"><a href="class_pelicula.html#a5bd6ce0bfae02ed2604e6de1b30af9e7">Pelicula::salaAsignada</a></div><div class="ttdeci">int salaAsignada</div><div class="ttdoc">Variable miembro que representa el número de sala asignada.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8h_source.html#l00120">Pelicula.h:120</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_a5f0d7c5cd0c774a2b3f68e611badae99"><div class="ttname"><a href="class_pelicula.html#a5f0d7c5cd0c774a2b3f68e611badae99">Pelicula::getTitulo</a></div><div class="ttdeci">string getTitulo() const</div><div class="ttdoc">Obtiene el título de la película.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00092">Pelicula.cpp:92</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_a649f93e71df1606c0e6e627b1ba72dbb"><div class="ttname"><a href="class_pelicula.html#a649f93e71df1606c0e6e627b1ba72dbb">Pelicula::duracionMinutos</a></div><div class="ttdeci">int duracionMinutos</div><div class="ttdoc">Variable miembro que representa la duración en minutos de la película.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8h_source.html#l00115">Pelicula.h:115</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_a6592eefffb11ae329199782a3716659c"><div class="ttname"><a href="class_pelicula.html#a6592eefffb11ae329199782a3716659c">Pelicula::genero</a></div><div class="ttdeci">string genero</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8h_source.html#l00110">Pelicula.h:110</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_a8f61644e1f19ecba612431f64059a88c"><div class="ttname"><a href="class_pelicula.html#a8f61644e1f19ecba612431f64059a88c">Pelicula::asignarSala</a></div><div class="ttdeci">void asignarSala(int numeroSala)</div><div class="ttdoc">Asigna la película a una sala de cine.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00128">Pelicula.cpp:128</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_aa06edcc1da6a3c4941c1f477e13a136e"><div class="ttname"><a href="class_pelicula.html#aa06edcc1da6a3c4941c1f477e13a136e">Pelicula::titulo</a></div><div class="ttdeci">string titulo</div><div class="ttdoc">Variables miembro que representan información de la película.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8h_source.html#l00110">Pelicula.h:110</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_ac8c650ab7ab4ad01155a620e74342077"><div class="ttname"><a href="class_pelicula.html#ac8c650ab7ab4ad01155a620e74342077">Pelicula::setDirector</a></div><div class="ttdeci">void setDirector()</div><div class="ttdoc">Establece el director de la película.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00062">Pelicula.cpp:62</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_ad688d3bb7626aa0ca0600669a7ba5d9d"><div class="ttname"><a href="class_pelicula.html#ad688d3bb7626aa0ca0600669a7ba5d9d">Pelicula::getGenero</a></div><div class="ttdeci">string getGenero() const</div><div class="ttdoc">Obtiene el género de la película.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00110">Pelicula.cpp:110</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_ae3ee82d255054d25155b884f7447983f"><div class="ttname"><a href="class_pelicula.html#ae3ee82d255054d25155b884f7447983f">Pelicula::~Pelicula</a></div><div class="ttdeci">virtual ~Pelicula()</div><div class="ttdoc">Destructor virtual de la clase Pelicula.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00044">Pelicula.cpp:44</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_ae622b3ed6688bd5cd7845f511119f0b2"><div class="ttname"><a href="class_pelicula.html#ae622b3ed6688bd5cd7845f511119f0b2">Pelicula::director</a></div><div class="ttdeci">string director</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8h_source.html#l00110">Pelicula.h:110</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_ae7d3964b742f4535ab75cf7877d6c86b"><div class="ttname"><a href="class_pelicula.html#ae7d3964b742f4535ab75cf7877d6c86b">Pelicula::setDuracionMinutos</a></div><div class="ttdeci">void setDuracionMinutos()</div><div class="ttdoc">Establece la duración en minutos de la película.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00082">Pelicula.cpp:82</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_af1c947990c1bd030113633ccbba23f06"><div class="ttname"><a href="class_pelicula.html#af1c947990c1bd030113633ccbba23f06">Pelicula::Pelicula</a></div><div class="ttdeci">Pelicula(string T, string D, string g, int DM, int numSala)</div><div class="ttdoc">Constructor de la clase Pelicula.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00032">Pelicula.cpp:32</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_af5ea53a1c303f334ec1ebf8187bc8e67"><div class="ttname"><a href="class_pelicula.html#af5ea53a1c303f334ec1ebf8187bc8e67">Pelicula::mostrarInformacion</a></div><div class="ttdeci">void mostrarInformacion() const</div><div class="ttdoc">Muestra la información de la película y su sala asignada.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00145">Pelicula.cpp:145</a></div></div>
+<div class="ttc" id="aclass_pelicula_html_aff34753653b36a96e72f90e299ac9e98"><div class="ttname"><a href="class_pelicula.html#aff34753653b36a96e72f90e299ac9e98">Pelicula::setGenero</a></div><div class="ttdeci">void setGenero()</div><div class="ttdoc">Establece el género de la película.</div><div class="ttdef"><b>Definition</b> <a href="_pelicula_8cpp_source.html#l00072">Pelicula.cpp:72</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>

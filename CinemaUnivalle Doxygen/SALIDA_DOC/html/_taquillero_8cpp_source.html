@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Cinema Univalle: Archivo de código fuente C:/Users/migue/Documents/Programacion/C++/Univalle/CinemaUnivalle/src/Taquillero.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="LOGO DOXY.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Cinema Univalle<span id="projectnumber">&#160;1.5</span>
+   </div>
+   <div id="projectbrief">Implementación del Programa Principal para gestionar un cine.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_9243c75301ab6fcc2bdd45bc5b7a8ab2.html">CinemaUnivalle</a></li><li class="navelem"><a class="el" href="dir_a89c3e8cc1de8ccbd2960e4ee059b4b5.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">Taquillero.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_taquillero_8cpp.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;<a class="code" href="_taquillero_8h.html">Taquillero.h</a>&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="foldopen" id="foldopen00026" data-start="{" data-end="}">
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_taquillero.html#a9ce61dab1cf4ac072f5099d3bce78fef">   26</a></span><a class="code hl_function" href="class_taquillero.html#a9ce61dab1cf4ac072f5099d3bce78fef">Taquillero::Taquillero</a>()</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <a class="code hl_variable" href="class_taquillero.html#a2aef1857c6441a3503b85ae896350e45">numID</a> = <span class="stringliteral">&quot;0-0-0-0&quot;</span>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>}</div>
+</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_taquillero.html#a69f2425b9f93eaa4d29c32fe9b701664">   34</a></span><a class="code hl_function" href="class_taquillero.html#a69f2425b9f93eaa4d29c32fe9b701664">Taquillero::~Taquillero</a>()</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>{</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="comment">// dtor</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>}</div>
+</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="foldopen" id="foldopen00044" data-start="{" data-end="}">
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_taquillero.html#aa594131680bceca3f09eed123bf74308">   44</a></span><a class="code hl_function" href="class_taquillero.html#a9ce61dab1cf4ac072f5099d3bce78fef">Taquillero::Taquillero</a>(<span class="keywordtype">string</span> usu, <span class="keywordtype">string</span> pass)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>{</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_variable" href="class_usuarios.html#a37539f013dde94f75be3f00c15536dc5">nombreUsuario</a> = usu;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_variable" href="class_usuarios.html#a59025dcefb301283a6ee4aa2f55549f5">password</a> = pass;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_variable" href="class_usuarios.html#a5decf19bdd12d38a4f290c5065f45a57">nivelEstudios</a> = <span class="stringliteral">&quot;NO REGISTRA&quot;</span>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <a class="code hl_variable" href="class_usuarios.html#aabc5e2452d2274d736500c2e27749f12">direccion</a> = <span class="stringliteral">&quot;NO REGISTRA&quot;</span>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>}</div>
+</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="foldopen" id="foldopen00060" data-start="{" data-end="}">
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="class_taquillero.html#a807cdeb545bdbeda5092e77465c55ae5">   60</a></span><a class="code hl_function" href="class_taquillero.html#a9ce61dab1cf4ac072f5099d3bce78fef">Taquillero::Taquillero</a>(<span class="keywordtype">string</span> usu, <span class="keywordtype">string</span> pass, <span class="keywordtype">string</span> tarjeta, <span class="keywordtype">string</span> estado, <span class="keywordtype">string</span> cont)</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>{</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <a class="code hl_variable" href="class_usuarios.html#a37539f013dde94f75be3f00c15536dc5">nombreUsuario</a> = usu;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    <a class="code hl_variable" href="class_usuarios.html#a59025dcefb301283a6ee4aa2f55549f5">password</a> = pass;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    <a class="code hl_variable" href="class_usuarios.html#a5decf19bdd12d38a4f290c5065f45a57">nivelEstudios</a> = <span class="stringliteral">&quot;NO REGISTRA&quot;</span>;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <a class="code hl_variable" href="class_usuarios.html#aabc5e2452d2274d736500c2e27749f12">direccion</a> = <span class="stringliteral">&quot;NO REGISTRA&quot;</span>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <a class="code hl_variable" href="class_usuario_admin.html#a6b4bb5c244c4a90503d5117ea1ad4bd8">tarjetaProfesional</a> = tarjeta;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <a class="code hl_variable" href="class_usuario_admin.html#aa36fe4bec5c5730971eaba97d1adeb77">estadoCivil</a> = estado;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <a class="code hl_variable" href="class_usuario_admin.html#a77d39398b0c4b4c33450712b94ca9448">contrato</a> = cont;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}</div>
+</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="foldopen" id="foldopen00082" data-start="{" data-end="}">
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="class_taquillero.html#a7820e10f908e3bc9ac6ed390cb0ea726">   82</a></span><a class="code hl_function" href="class_taquillero.html#a9ce61dab1cf4ac072f5099d3bce78fef">Taquillero::Taquillero</a>(<span class="keywordtype">string</span> usu, <span class="keywordtype">string</span> pass, <span class="keywordtype">string</span> estudios, <span class="keywordtype">string</span> direc, <span class="keywordtype">string</span> tarjeta, <span class="keywordtype">string</span> estado, <span class="keywordtype">string</span> cont, <span class="keywordtype">string</span> ID)</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>{</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <a class="code hl_variable" href="class_usuarios.html#a37539f013dde94f75be3f00c15536dc5">nombreUsuario</a> = usu;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <a class="code hl_variable" href="class_usuarios.html#a59025dcefb301283a6ee4aa2f55549f5">password</a> = pass;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <a class="code hl_variable" href="class_usuarios.html#a5decf19bdd12d38a4f290c5065f45a57">nivelEstudios</a> = estudios;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    <a class="code hl_variable" href="class_usuarios.html#aabc5e2452d2274d736500c2e27749f12">direccion</a> = direc;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <a class="code hl_variable" href="class_usuario_admin.html#a6b4bb5c244c4a90503d5117ea1ad4bd8">tarjetaProfesional</a> = tarjeta;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <a class="code hl_variable" href="class_usuario_admin.html#aa36fe4bec5c5730971eaba97d1adeb77">estadoCivil</a> = estado;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    <a class="code hl_variable" href="class_usuario_admin.html#a77d39398b0c4b4c33450712b94ca9448">contrato</a> = cont;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <a class="code hl_variable" href="class_taquillero.html#a2aef1857c6441a3503b85ae896350e45">numID</a> = ID;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>}</div>
+</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="foldopen" id="foldopen00097" data-start="{" data-end="}">
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="class_taquillero.html#a7a81ee28d51bf633d1be1aa033cc5b3f">   97</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_taquillero.html#a7a81ee28d51bf633d1be1aa033cc5b3f">Taquillero::setNumID</a>()</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>{</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    fflush(stdin);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    cout &lt;&lt; <span class="stringliteral">&quot;\tIngrese su numero de identificacion: &quot;</span>;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    cin &gt;&gt; <a class="code hl_variable" href="class_taquillero.html#a2aef1857c6441a3503b85ae896350e45">numID</a>;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>}</div>
+</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="foldopen" id="foldopen00108" data-start="{" data-end="}">
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="class_taquillero.html#a6963b8e62141e30c3f8afa66ab96b669">  108</a></span><span class="keywordtype">string</span> <a class="code hl_function" href="class_taquillero.html#a6963b8e62141e30c3f8afa66ab96b669">Taquillero::getNumID</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_taquillero.html#a2aef1857c6441a3503b85ae896350e45">numID</a>;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>}</div>
+</div>
+<div class="ttc" id="a_taquillero_8h_html"><div class="ttname"><a href="_taquillero_8h.html">Taquillero.h</a></div><div class="ttdoc">Archivo de encabezado que define la clase Taquillero, representando a un taquillero y siendo una clas...</div></div>
+<div class="ttc" id="aclass_taquillero_html_a2aef1857c6441a3503b85ae896350e45"><div class="ttname"><a href="class_taquillero.html#a2aef1857c6441a3503b85ae896350e45">Taquillero::numID</a></div><div class="ttdeci">string numID</div><div class="ttdef"><b>Definition</b> <a href="_taquillero_8h_source.html#l00032">Taquillero.h:32</a></div></div>
+<div class="ttc" id="aclass_taquillero_html_a6963b8e62141e30c3f8afa66ab96b669"><div class="ttname"><a href="class_taquillero.html#a6963b8e62141e30c3f8afa66ab96b669">Taquillero::getNumID</a></div><div class="ttdeci">string getNumID() const</div><div class="ttdoc">Obtiene el número de identificación del taquillero.</div><div class="ttdef"><b>Definition</b> <a href="_taquillero_8cpp_source.html#l00108">Taquillero.cpp:108</a></div></div>
+<div class="ttc" id="aclass_taquillero_html_a69f2425b9f93eaa4d29c32fe9b701664"><div class="ttname"><a href="class_taquillero.html#a69f2425b9f93eaa4d29c32fe9b701664">Taquillero::~Taquillero</a></div><div class="ttdeci">virtual ~Taquillero()</div><div class="ttdoc">Destructor virtual de la clase Taquillero.</div><div class="ttdef"><b>Definition</b> <a href="_taquillero_8cpp_source.html#l00034">Taquillero.cpp:34</a></div></div>
+<div class="ttc" id="aclass_taquillero_html_a7a81ee28d51bf633d1be1aa033cc5b3f"><div class="ttname"><a href="class_taquillero.html#a7a81ee28d51bf633d1be1aa033cc5b3f">Taquillero::setNumID</a></div><div class="ttdeci">void setNumID()</div><div class="ttdoc">Establece el número de identificación del taquillero mediante la entrada del taquillero.</div><div class="ttdef"><b>Definition</b> <a href="_taquillero_8cpp_source.html#l00097">Taquillero.cpp:97</a></div></div>
+<div class="ttc" id="aclass_taquillero_html_a9ce61dab1cf4ac072f5099d3bce78fef"><div class="ttname"><a href="class_taquillero.html#a9ce61dab1cf4ac072f5099d3bce78fef">Taquillero::Taquillero</a></div><div class="ttdeci">Taquillero()</div><div class="ttdoc">Constructor por defecto de la clase Taquillero. Inicializa los atributos con valores predeterminados.</div><div class="ttdef"><b>Definition</b> <a href="_taquillero_8cpp_source.html#l00026">Taquillero.cpp:26</a></div></div>
+<div class="ttc" id="aclass_usuario_admin_html_a6b4bb5c244c4a90503d5117ea1ad4bd8"><div class="ttname"><a href="class_usuario_admin.html#a6b4bb5c244c4a90503d5117ea1ad4bd8">UsuarioAdmin::tarjetaProfesional</a></div><div class="ttdeci">string tarjetaProfesional</div><div class="ttdef"><b>Definition</b> <a href="_usuario_admin_8h_source.html#l00033">UsuarioAdmin.h:33</a></div></div>
+<div class="ttc" id="aclass_usuario_admin_html_a77d39398b0c4b4c33450712b94ca9448"><div class="ttname"><a href="class_usuario_admin.html#a77d39398b0c4b4c33450712b94ca9448">UsuarioAdmin::contrato</a></div><div class="ttdeci">string contrato</div><div class="ttdef"><b>Definition</b> <a href="_usuario_admin_8h_source.html#l00033">UsuarioAdmin.h:33</a></div></div>
+<div class="ttc" id="aclass_usuario_admin_html_aa36fe4bec5c5730971eaba97d1adeb77"><div class="ttname"><a href="class_usuario_admin.html#aa36fe4bec5c5730971eaba97d1adeb77">UsuarioAdmin::estadoCivil</a></div><div class="ttdeci">string estadoCivil</div><div class="ttdef"><b>Definition</b> <a href="_usuario_admin_8h_source.html#l00033">UsuarioAdmin.h:33</a></div></div>
+<div class="ttc" id="aclass_usuarios_html_a37539f013dde94f75be3f00c15536dc5"><div class="ttname"><a href="class_usuarios.html#a37539f013dde94f75be3f00c15536dc5">Usuarios::nombreUsuario</a></div><div class="ttdeci">string nombreUsuario</div><div class="ttdef"><b>Definition</b> <a href="_usuarios_8h_source.html#l00030">Usuarios.h:30</a></div></div>
+<div class="ttc" id="aclass_usuarios_html_a59025dcefb301283a6ee4aa2f55549f5"><div class="ttname"><a href="class_usuarios.html#a59025dcefb301283a6ee4aa2f55549f5">Usuarios::password</a></div><div class="ttdeci">string password</div><div class="ttdef"><b>Definition</b> <a href="_usuarios_8h_source.html#l00030">Usuarios.h:30</a></div></div>
+<div class="ttc" id="aclass_usuarios_html_a5decf19bdd12d38a4f290c5065f45a57"><div class="ttname"><a href="class_usuarios.html#a5decf19bdd12d38a4f290c5065f45a57">Usuarios::nivelEstudios</a></div><div class="ttdeci">string nivelEstudios</div><div class="ttdef"><b>Definition</b> <a href="_usuarios_8h_source.html#l00030">Usuarios.h:30</a></div></div>
+<div class="ttc" id="aclass_usuarios_html_aabc5e2452d2274d736500c2e27749f12"><div class="ttname"><a href="class_usuarios.html#aabc5e2452d2274d736500c2e27749f12">Usuarios::direccion</a></div><div class="ttdeci">string direccion</div><div class="ttdef"><b>Definition</b> <a href="_usuarios_8h_source.html#l00030">Usuarios.h:30</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>
